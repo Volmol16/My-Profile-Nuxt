@@ -1313,7 +1313,7 @@ const _export_sfc = (sfc, props) => {
 const _sfc_main$4 = {};
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
   const _component_NuxtLink = __nuxt_component_0$1;
-  _push(`<header${ssrRenderAttrs(mergeProps({ class: "flex justify-between items-center px-20 pt-5 bg-[#f3f3f3]" }, _attrs))}><h5 class="text-3xl text-green-500 font-bold">Portfolio.</h5><div class="flex gap-x-5">`);
+  _push(`<header${ssrRenderAttrs(mergeProps({ class: "pt-5 bg-[#f3f3f3]" }, _attrs))}><div class="flex justify-between items-center max-w-[1440px] mx-auto"><h5 class="text-3xl text-green-500 font-bold">Portfolio.</h5><div class="flex gap-x-5">`);
   _push(ssrRenderComponent(_component_NuxtLink, {
     class: "text-xl font-semibold",
     to: "/"
@@ -1359,7 +1359,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</div></header>`);
+  _push(`</div></div></header>`);
 }
 const _sfc_setup$4 = _sfc_main$4.setup;
 _sfc_main$4.setup = (props, ctx) => {
